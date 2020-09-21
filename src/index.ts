@@ -1,4 +1,4 @@
-import { NativeModules } from "react-native";
+import { NativeModules } from "./react-native";
 
 export type VisibilityStatus = "visible" | "hidden" | "transitioning";
 export type Config = { fade?: boolean };
